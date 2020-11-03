@@ -1,0 +1,68 @@
+@import "./variables.css";
+
+.mainContainer {
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 1.5rem 1rem 0;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: auto;
+  line-height: 1.2;
+}
+
+.tempContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0 1rem 0 0;
+}
+
+.icon {
+  height: 48px;
+  width: 48px;
+}
+
+.secondaryStats {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.pressure,
+.humidity {
+  background: var(--primary-light);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.75rem;
+}
+
+.pressure {
+  margin-right: 0.5rem;
+}
+
+.pressure > span,
+.humidity > span,
+.sunRise > span,
+.sunSet > span {
+  font-weight: 700;
+}
+
+.sunStats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sunRise,
+.sunSet {
+  display: flex;
+  flex-direction: column;
+}
+
+.lightText {
+  color: var(--light);
+}

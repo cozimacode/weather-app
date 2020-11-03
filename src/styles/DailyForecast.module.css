@@ -1,0 +1,7 @@
+.mainContainer {
+  display: flex;
+  font-size: 0.95rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 1.5rem;
+}

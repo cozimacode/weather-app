@@ -1,0 +1,30 @@
+@import "./variables.css";
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0.25rem 0.5rem 0.25rem 0.25rem;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  width: 89px;
+  height: 124px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.selected {
+  background: #fffdf7;
+  box-shadow: 0 0 1px 3px var(--primary);
+  transition: box-shadow 0.3s ease-in;
+  border-radius: 8px;
+}
+
+.lightText {
+  color: var(--light);
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}

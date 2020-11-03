@@ -1,0 +1,12 @@
+@import "./variables.css";
+
+.main {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  position: absolute;
+  top: 110%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
